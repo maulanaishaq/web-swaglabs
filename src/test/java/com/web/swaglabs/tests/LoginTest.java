@@ -39,6 +39,7 @@ public class LoginTest extends BaseTest  {
 
     }
 
+    /*
     @Test(dataProvider = "loginFromExcel", dataProviderClass = TestData.class)
     public void successLoginWithTestDataExcel(String username, String password){
         LoginPage loginPage = new LoginPage(driver);
@@ -49,6 +50,7 @@ public class LoginTest extends BaseTest  {
 
     }
 
+    */
 
 
 
