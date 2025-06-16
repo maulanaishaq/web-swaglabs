@@ -1,0 +1,12 @@
+<suite name="ChromeParallelMethodsSuite" parallel="methods" thread-count="2">
+
+
+    <test name="ChromeMethodsTest">
+
+    <parameter name="browser" value="chrome"/>
+
+    <classes>
+        <class name="com.web.swaglabs.tests.LoginTest"/>
+    </classes>
+</test>
+</suite>

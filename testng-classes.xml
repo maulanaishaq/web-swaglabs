@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ChromeOnlyParallelSuite" parallel="classes" thread-count="2">
+
+    <test name="ChromeAllTests">
+
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.web.swaglabs.tests.LoginTest"/>
+        </classes>
+    </test>
+
+
+</suite>
